@@ -1,0 +1,189 @@
+@import url('components.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins";
+
+
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: none;
+  margin: 0 auto;
+}
+  
+
+.logo img {
+  width: 4.7%;
+  height: auto;
+
+}
+
+.fas fa-user {
+  font-size: 50px;
+  font-weight: 800;
+  float: left;
+  font-family: courier;
+  color: #FEF9D9;
+  margin-left: 30px;
+
+}
+
+.menu {
+  padding-right: 30px;
+  /* show overflow */
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-bottom: 1px solid #FEF9D9;
+  background-color: #00541A;
+  margin-right: 100px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+
+
+
+.logo img {
+  font-size: 50px;
+  font-weight: 800;
+  float: left;
+  font-family: courier;
+  color: #FEF9D9;
+  margin-left: 30px;
+
+}
+
+nav ul li a {
+  color: #FEF9D9;
+  font-weight: bold;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+  position: relative;
+}
+
+nav ul li a::after {
+  content: '';
+  width: 0;
+  height: 2.5px;
+  background: #FEF9D9;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: width 0.5s;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+
+a.tbl-biru {
+  background: #FEF9D9;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-biru:hover {
+  background: #F7E652;
+  text-decoration: wavy;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+  /* display: inline-block; */
+}
+
+.dropdown i {
+  text-decoration: none;
+  color: #FEF9D9;
+  font-size: 14px;
+  font-weight: bold;
+  transition: .4s ease;
+  margin-top: 32px;
+  margin-left: 32px;
+  cursor: pointer;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  left: -50px;
+  top: 50px;
+  background-color: #FEF9D9;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.05);
+  padding: 4px 16px;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.dropdown-content.transparent {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.logout-btn {
+  padding: 30px 10px;
+  cursor: pointer;
+}
+
+button {
+  background-color: #FEF9D9;
+  color: #00541A;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: .4s ease;
+}
+
+.list-dropdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

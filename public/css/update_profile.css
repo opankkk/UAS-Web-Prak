@@ -1,0 +1,69 @@
+/* Warna latar belakang untuk container */
+.container {
+    background-color: #FEF9D9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Warna latar belakang untuk card */
+  .card {
+    background-color: #F7E652;
+    border: 1px solid #00541A;
+    border-radius: 8px;
+  }
+  
+  /* Warna untuk header card */
+  .card-header {
+    background-color: #00541A;
+    color: #FEF9D9;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  /* Warna untuk form labels */
+  .col-form-label {
+    color: #00541A;
+    font-weight: bold;
+  }
+  
+  /* Warna untuk input fields */
+  .form-control {
+    border: 1px solid #00541A;
+    border-radius: 4px;
+  }
+  
+  /* Warna untuk input fields ketika ada error */
+  .is-invalid {
+    border-color: #FF0000;
+  }
+  
+  /* Warna untuk invalid feedback */
+  .invalid-feedback {
+    color: #FF0000;
+  }
+  
+  /* Warna untuk tombol submit */
+  .btn-primary {
+    background-color: #00541A;
+    border-color: #00541A;
+    color: #FEF9D9;
+  }
+  
+  .btn-primary:hover {
+    background-color: #004015;
+    border-color: #004015;
+  }
+  
+  /* Margins and paddings for form groups */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group.row.mb-0 {
+    margin-bottom: 0;
+  }
+  
